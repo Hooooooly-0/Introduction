@@ -1,0 +1,73 @@
+div. {
+  /* display: flex; */
+}
+
+#background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background-color: beige;
+}
+
+#mainTitle {    /* 제목 */
+  flex-direction: column;
+  margin: 10px 5px 10px 5px;
+  padding: 10px 5px 10px 5px;
+  width: 1600px;
+
+  background-color: lightsalmon;
+}
+#mainTitle > span {
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+
+#introduction {   /* 본문 */
+  margin: 10px 5px 10px 5px;
+  padding: 10px 5px 10px 5px;
+  height: 800px;
+  width: 1600px;
+
+  background-color: lightcoral;
+}
+#image {
+  position: relative;
+  left: 1225px;
+  top: -700px;
+  width: 350px;
+  height: 400px;
+  float: left;
+
+  background-color: antiquewhite;
+}
+#text {
+  position: relative;
+  left: 20px;
+  width: 1200px;
+  height: 700px;
+  text-align: left;
+
+  background-color: lightskyblue;
+}
+
+#sidebar {  /* 사이드 바 */
+  position: absolute;
+  right: 0%;
+  display: inline-block;
+  width: 200px;
+  height: 100%;
+
+  background-color: yellowgreen;
+}
+#sidebar > div {
+  margin: 5px 0px 5px 0px;
+  height: 50px;
+  text-align: center;
+
+  background-color: lightyellow;
+}
+#sidebar > div > a {
+  position: relative;
+  top: 25%;
+}
