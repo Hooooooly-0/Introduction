@@ -26,7 +26,7 @@ div. {
 #introduction {   /* 본문 */
   margin: 10px 5px 10px 5px;
   padding: 10px 5px 10px 5px;
-  height: 800px;
+  height: 750px;
   width: 1600px;
 
   background-color: lightcoral;
@@ -54,14 +54,15 @@ div. {
 #sidebar {  /* 사이드 바 */
   position: absolute;
   right: 0%;
+  top: 0%;
   display: inline-block;
   width: 200px;
   height: 100%;
+  z-index: 2;
 
   background-color: yellowgreen;
 }
 #sidebar > div {
-  margin: 5px 0px 5px 0px;
   height: 50px;
   text-align: center;
 
